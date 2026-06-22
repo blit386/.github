@@ -1,6 +1,9 @@
 # BLIT386
 
-A palette-first WebGPU retro engine for TypeScript, inspired by [RetroBlit](https://badcastle.itch.io/retroblit). Draw with palette indices instead of RGBA pixels, animate with palette cycling and fades, and ship authentic VGA-era effects on modern GPUs – with an automatic Canvas 2D fallback when WebGPU is unavailable.
+A palette-first WebGPU retro engine for TypeScript, inspired by [RetroBlit](https://www.badcastle.com/retroblit.html) by
+Martin Cietwierkowski ([@daafu](https://github.com/daafu)). Draw with palette indices instead of RGBA pixels, animate
+with palette cycling and fades, and ship authentic VGA-era effects on modern GPUs – with an automatic Canvas 2D fallback
+when WebGPU is unavailable.
 
 Read the documentation at [blit386.dev](https://blit386.dev).
 
