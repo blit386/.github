@@ -25,11 +25,19 @@ Works with npm, pnpm, yarn, or bun. You get a ready-to-run Vite project, a comme
 
 ## Why BLIT386?
 
-- True indexed rendering - primitives and sprites write palette indices, not RGBA.
-- Palette effects built-in - cycling, fade, flash, and swap run per frame, no per-sprite rewrites.
-- Retro palette presets - VGA, CGA, C64, Game Boy, PICO-8, and NES.
-- Post-process effects - a two-tier chain with bundled CRT presets.
-- Full input - pointer, keyboard, and gamepad, plus a fixed-timestep loop and frame capture.
+- True indexed rendering – primitives and sprites write palette indices, not RGBA.
+- Palette effects built-in – cycling, fade, flash, and swap run per frame, no per-sprite rewrites.
+- Retro palette presets – VGA, CGA, C64, Game Boy, PICO-8, and NES.
+- Post-process effects – a two-tier chain with bundled CRT presets.
+- Full input – pointer, keyboard, and gamepad, plus a fixed-timestep loop and frame capture.
+
+## Community
+
+- [Discord](https://discord.gg/tC2wGt88Uj)
+- [GitHub Discussions](https://github.com/blit386/blit386/discussions)
+- [X](https://x.com/blit386)
+- [Bluesky](https://bsky.app/profile/blit386.bsky.social)
+- [Mastodon](https://mastodon.gamedev.place/@blit386)
 
 ## Authors
 
