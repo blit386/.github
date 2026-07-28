@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
+# CodeRabbit configuration for the blit386/.github org repo (org profile + shared
+# community-health files).
+#
+# No path_filters: this repo has no generated or duplicated trees to exclude —
+# just the org profile README and shared community-health Markdown.
+#
+# Auto review is disabled by default. To enable it, add the `cr` label to the PR.
+reviews:
+  review_status: false
+  path_instructions:
+    - path: '*.md'
+      instructions: >-
+        Org-wide community-health file (CODE_OF_CONDUCT.md, README.md), inherited by any blit386 repo that does not
+        define its own copy. American English spelling, never British equivalents (see blit386's CLAUDE.md, American
+        English spelling, for the workspace-wide policy this repo follows). No emoji anywhere.
+    - path: 'profile/README.md'
+      instructions: >-
+        The org profile page rendered on https://github.com/blit386. American English; no emoji; keep links pointed at
+        the current canonical repos (blit386, blit386-demos, blit386-dev-fumapress, create-blit386, awesome-blit386).
+  auto_review:
+    enabled: false
+    labels: ['cr']
