@@ -31,6 +31,8 @@ anchors it; the other packages release in lockstep with it.
   [demos.blit386.dev](https://demos.blit386.dev).
 - [packages/website](https://github.com/blit386/blit386/tree/main/packages/website) – source for
   [blit386.dev](https://blit386.dev).
+- [awesome-blit386](https://github.com/blit386/awesome-blit386) – a curated list of BLIT386 resources and community
+  games.
 
 ## Why BLIT386?
 
