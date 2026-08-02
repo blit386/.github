@@ -19,9 +19,20 @@ Works with npm, pnpm, yarn, or bun. You get a ready-to-run Vite project, a comme
 
 ## Projects
 
-- [blit386](https://github.com/blit386/blit386) – the engine library ([npm](https://www.npmjs.com/package/blit386)).
-- [create-blit386](https://github.com/blit386/create-blit386) – the `npm create blit386` scaffolder and [`@blit386/kit`](https://www.npmjs.com/package/@blit386/kit).
-- [blit386-demos](https://github.com/blit386/blit386-demos) – interactive examples, hosted at [demos.blit386.dev](https://demos.blit386.dev).
+[blit386/blit386](https://github.com/blit386/blit386) is a single monorepo holding everything below. The engine
+anchors it; the other packages release in lockstep with it.
+
+- [packages/blit386](https://github.com/blit386/blit386/tree/main/packages/blit386) – the engine library
+  ([npm](https://www.npmjs.com/package/blit386)).
+- [packages/create-blit386](https://github.com/blit386/blit386/tree/main/packages/create-blit386) and
+  [packages/kit](https://github.com/blit386/blit386/tree/main/packages/kit) – the `npm create blit386` scaffolder and
+  [`@blit386/kit`](https://www.npmjs.com/package/@blit386/kit).
+- [packages/demos](https://github.com/blit386/blit386/tree/main/packages/demos) – interactive examples, hosted at
+  [demos.blit386.dev](https://demos.blit386.dev).
+- [packages/website](https://github.com/blit386/blit386/tree/main/packages/website) – source for
+  [blit386.dev](https://blit386.dev).
+- [awesome-blit386](https://github.com/blit386/awesome-blit386) – a curated list of BLIT386 resources and community
+  games.
 
 ## Why BLIT386?
 
