@@ -15,7 +15,7 @@ npm create blit386@latest my-game
 
 Works with npm, pnpm, yarn, or bun. You get a ready-to-run Vite project, a commented starter game, and local docs.
 
-![BLIT386 logo](https://github.com/blit386/blit386/raw/main/assets/logo.png)
+![BLIT386 logo](https://github.com/blit386/blit386/raw/main/packages/blit386/assets/logo.png)
 
 ## Projects
 
